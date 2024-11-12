@@ -19,7 +19,6 @@ is_excluded_folder() {
 }
 
 # Function to handle IAM policy processing and append results to CSV
-# Function to handle IAM policy processing and append results to CSV
 process_policy() {
   local resource_type="$1"
   local resource_id="$2"
